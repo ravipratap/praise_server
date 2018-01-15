@@ -9,5 +9,5 @@ const SiteSchema =mongoose.Schema({
     timestamps : true
 });
 
-const Image= module.exports = mongoose.model('Image',ImageSchema); 
+const Site= module.exports = mongoose.model('Site',SiteSchema); 
 
